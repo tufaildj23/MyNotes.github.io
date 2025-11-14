@@ -1,0 +1,308 @@
+   Class IX – IT/IteS Notes By Tufail
+_____________________________________________
+Unit 1 : Introduction to IT–ITeS Industry
+
+B. Short answer questions (50 words)
+
+1. What do you understand by the term IT and ITeS?
+Answer : IT refers to the use of computers, networks, and software for managing and processing information. ITeS (Information Technology Enabled Services) are services delivered using IT, such as BPO, call centers, online support, data processing, and remote services provided through digital platforms.
+
+2. What are the pros and cons of using ICT?
+Answer : ICT improves communication, access to information, learning, business productivity, and efficiency. However, it also brings disadvantages such as cybercrime, privacy risks, digital addiction, high setup costs, and dependence on technology. Proper training and security are needed to use ICT safely and effectively in different fields.
+
+3. What precautions are required to ensure that ICT use is safe?
+Answer : Use strong passwords, updated antivirus, and secure networks. Avoid sharing personal information publicly, backup data regularly, and follow cyber safety guidelines. Students should use ICT under supervision. Report suspicious messages, and maintain responsible online behavior to prevent cyberbullying, fraud, and misuse of digital devices.
+
+4. What are the four main sub-sectors in the IT-BPM industry?
+Answer : The IT-BPM industry mainly includes IT Services, Business Process Management (BPM), Software Products and Engineering Services, and Hardware. These sub-sectors collectively deliver technology solutions, outsourced processes, software development, and manufacturing of computer devices used across industries.
+
+5. Give examples of use of IT in everyday life.
+Answer : IT is used in mobile banking, online shopping, digital payments, GPS navigation, video calls, social media, online ticket booking, smart home devices, and learning apps. It helps people communicate, access services quickly, and manage day-to-day tasks more efficiently through computers and smartphones.
+
+6. How is IT used in libraries?
+Answer : Libraries use IT for cataloging books, issuing and returning items with barcodes, maintaining digital databases, storing e-books, providing online search facilities, and automating membership records. Library management systems help track availability, overdue books, and user history efficiently.
+
+7. What are the various processes of education where IT is used?
+Answer : IT is used in classroom teaching through smart boards, digital content, online classes, assessments, record-keeping, learning management systems, virtual labs, and communication between teachers and students. It supports interactive learning, multimedia presentations, and access to global educational resources.
+
+8. Which software are used in digital communication?
+Answer : Digital communication commonly uses email clients, messaging apps, video conferencing tools, social media platforms, and collaboration software. Examples include Gmail, Outlook, WhatsApp, Zoom, Google Meet, Slack, Microsoft Teams, and social platforms used for sharing messages and multimedia.
+
+9. For what purpose is IT used in business?
+Answer : IT is used for accounting, data management, customer service, inventory control, online marketing, communication, e-commerce, and automation. It helps businesses improve productivity, reduce errors, analyze data, and deliver better services through digital tools and software systems.
+
+10. Which are the prominent areas where IT is used in science and engineering?
+Answer : IT is used in computer-aided design (CAD), simulations, research data analysis, robotics, automation, artificial intelligence, scientific modeling, and controlling machines. It supports experiments, engineering designs, space research, and development of new technologies.
+
+11. List the various uses of IT in a banking system.
+Answer : IT is used in ATMs, online banking, mobile banking, fund transfers, account management, fraud detection, digital payments, customer service, and maintaining secure databases. Banks use IT systems for fast transactions, record-keeping, and managing financial operations safely.
+
+12. Which are the different areas of healthcare where IT is used? And how?
+Answer : IT is used in patient record management, telemedicine, hospital management systems, diagnostic tools, pharmacy management, and appointment scheduling. It helps store medical history, support remote consultations, track medicines, monitor patients, and improve accuracy in treatments and diagnosis.
+
+13. List any 5 websites of the Indian government which provide IT enabled services to the people.
+Answer : 1.	india.gov.in – National Portal of India
+	 2.	uidai.gov.in – Aadhaar services
+	 3.	irctc.co.in – Online railway booking
+	 4.	incometax.gov.in – Income tax services
+	 5.	digilocker.gov.in – Digital document storage
+_____________________________________________
+
+Unit 2 : Data Entry and Keyboarding Skills
+
+D. Short answer questions (50 words)
+
+1. Discuss the various types of keys available on a computer keyboard.
+Answer : A computer keyboard has different types of keys such as alphanumeric keys for letters and numbers, function keys (F1–F12), control keys like Ctrl and Alt, navigation keys, arrow keys, special keys like Enter and Shift, and numeric keypad keys used for quick number entry and calculations.
+
+2. Differentiate between Home Keys and Guide Keys.
+Answer : Home Keys are the central row keys where fingers rest during typing, helping maintain correct hand position. Guide Keys are specific keys with small bumps that help users locate the Home Keys without looking. Home Keys support typing posture, while Guide Keys assist in touch-typing accuracy.
+
+3. What do you understand by Guide Keys? Name the Guide Keys of:
+Answer : (a) Computer keyboard
+		Guide Keys are raised-bump keys that help users position their fingers correctly on the Home Row. On a computer keyboard, the Guide Keys are F and J.
+	 (b) Typewriter
+		On a typewriter, the Guide Keys are A and ; (semicolon) because typists used these to position their fingers on the Home Row.
+
+4. Explain the role of typing ergonomics.
+Answer : Typing ergonomics ensures safe and comfortable typing by maintaining correct posture, proper wrist alignment, correct chair and table height, and regular breaks. Good ergonomics reduces muscle strain, prevents repetitive stress injuries, increases typing speed, accuracy, and supports long-term healthy computer use.
+
+5. Why is the use of various typing software common nowadays?
+Answer : Typing software is widely used because it helps improve typing speed, accuracy, and finger placement through practice exercises. It provides real-time feedback, gamified learning, progress tracking, and supports beginners and professionals. Such software makes learning convenient, efficient, and suitable for modern digital work environments.
+
+6. Mention the finger allocation of keys of the Bottom Row of a computer keyboard.
+Answer : On the Bottom Row, the left little finger handles Ctrl, Shift, Z; the left ring finger types X; the left middle finger types C; the left index finger types V and B. The right index finger covers N and M; right middle handles comma; right ring handles period; right little finger uses slash, Shift, and Enter.
+
+_____________________________________________
+
+Unit 3 : Digital Documentation
+
+D. Short answer questions (50 words)
+
+1. In a document all the occurrences of word “this” have to be changed to “these”. Which option is suitable for this and what is the shortcut command used for it?
+Answer : The Find and Replace option is used to change all occurrences of a word automatically. It helps quickly replace “this” with “these” throughout the document. The shortcut key for this feature is Ctrl + H, which opens the Replace dialog box instantly.
+
+2. Which two documents are essential for mail merge?
+Answer : Mail merge requires two documents: the Main Document, which contains the message or letter, and the Data Source, which stores names, addresses, and other merge fields. Together, they create multiple personalized copies for different recipients automatically.
+
+3. Explain the concept of Word Processing.
+Answer : Word processing refers to creating, editing, formatting, and printing documents using computer software. It allows easy correction of errors, insertion of images, tables, and symbols, and supports saving and sharing. Word processors make documentation faster, more attractive, and more efficient than manual typing.
+
+4. List the various software available for word processing.
+Answer : Common word processing software includes Microsoft Word, LibreOffice Writer, Google Docs, WPS Writer, OpenOffice Writer, and AbiWord. These applications provide typing, editing, formatting, spell check, and layout features to create professional documents easily.
+
+5. Write difference between a text editor and a word processor software. Write the name of any text editor or word processor available in market.
+Answer : A text editor handles plain text without formatting, while a word processor offers formatting tools, tables, images, spell check, and page layout features. Examples: Notepad (text editor) and MS Word or LibreOffice Writer (word processors).
+
+6. List the various components of LibreOffice suite. Explain each component in one line.
+Answer : •	Writer: For creating text documents.
+	 •	Calc: Spreadsheet for calculations and data analysis.
+	 •	Impress: Creates multimedia presentations.
+	 •	Draw: For diagrams, shapes, and flowcharts.
+	 •	Base: Manages databases and queries.
+	 •	Math: Edits equations and mathematical formulas.
+
+7. Compare the features of manual typewriter, electronic typewriter and word processing software.
+Answer : A manual typewriter requires mechanical typing with no editing. An electronic typewriter allows limited correction and small memory. Word processing software provides unlimited editing, formatting, spell check, images, saving multiple versions, and printing—making it far more efficient and flexible.
+
+8. Explain the different views to display a document.
+Answer : Writer provides Normal View, Web View, Full Screen, Print Preview, and Outline View. These views help users read, edit, preview page layout, arrange headings, and check how the document will appear when printed or viewed online.
+
+9. What are the various methods for selecting the text in a document? Give the steps to select a paragraph.
+Answer : Text can be selected by dragging the mouse, double-clicking, triple-clicking, using Shift + Arrow keys, or pressing Ctrl + A.
+	To select a paragraph: place the cursor inside the paragraph and triple-click, or drag the mouse across it.
+
+10. What are the special characters? How can you insert them in a document?
+Answer : Special characters are symbols not found on the keyboard, such as ©, €, →, ±, or accented letters. To insert them, go to Insert → Special Character, choose a symbol from the list, and click OK to add it to the document.
+
+11. How will you count the total words of a document?
+Answer : Use the Word Count tool. In Writer, click Tools → Word Count, or check the count shown in the status bar. It displays the number of words, characters, lines, and pages, helping users track document length.
+
+12. What are the various menu of Writer GUI?
+Answer : Writer contains menus such as File, Edit, View, Insert, Format, Styles, Table, Tools, Window, and Help. These menus provide commands to create, edit, format, design, manage, and troubleshoot documents efficiently.
+
+13. What is the default extension assigned to the document in Writer when you save it? Write down the steps to save the document to Microsoft Word document?
+Answer : Writer saves documents with the default extension .odt.
+	To save as Word file: File → Save As → Choose ‘Microsoft Word 2007–365 (.docx)’ → Select location → Save.
+
+14. What is the importance of password in the document? How will you protect the document using password in Writer?
+Answer : A password protects a document from unauthorized access and editing, ensuring privacy and data security. In Writer, use File → Save As → Check ‘Save with Password’ → Enter and confirm password. Only users with the password can open the file.
+
+15. What is mail merge? Write down the steps to create mailing labels to paste on wedding cards.
+Answer : Mail merge combines a main document with a data list to create personalized letters or labels.
+	Steps: File → New → Labels → Select Brand → Choose Database → Insert fields → New Document → Edit layout → Print using merged data.
+
+16. What are the advantages of table? Prepare your report card of Class VIII in table format.
+Answer : Tables organize information clearly, allow easy comparison, support neat formatting, and improve readability. They are useful for marksheets, schedules, and reports.
+	Report Card (Class VIII)
+	Subject		Marks	Grade
+	English		88	A
+	Maths		92	A+
+	Science		85	A
+	SST		80	B+
+	Computer	90	A+
+
+17. Write an application to your Principal for field visit to any IT Industry.
+Answer : 
+
+	To,
+	The Principal,
+	Baleswar Higher Secondary School
+	
+	Subject: Request for Field Visit
+
+	Respected Sir,
+
+		I request permission to organize a field visit to a IICA, Kalain for Class VIII students. The visit will help us learn practical uses of technology. Kindly grant approval.
+	
+	Thanking you.
+	Yours sincerely,
+	Abhijeet Das
+
+_____________________________________________
+
+Unit 4 : Electronic Spreadsheet
+
+E. Short Answer Questions (50 words)
+
+1. What do you call the document created in a spreadsheet application?
+Answer : A document created in a spreadsheet application is called a workbook. A workbook contains one or more worksheets used to organize, calculate, and analyze data. Each sheet includes rows, columns, and cells where users enter numbers, text, formulas, and functions for data processing.
+
+2. What are the steps to create a new spreadsheet?
+Answer : Open the spreadsheet application (e.g., Calc or Excel), click File → New → Spreadsheet. A new blank workbook opens with default worksheets. You can then enter data, rename sheets, apply formatting, and start calculations using formulas or functions.
+
+3. What is the difference between spreadsheet, worksheet and sheet?
+Answer : A spreadsheet is software used for calculations and data organization. A workbook is the entire spreadsheet file. A worksheet or sheet is a single page within the workbook containing rows, columns, and cells. A workbook may contain multiple worksheets for different data sets.
+
+4. What is the default name of the worksheet? How can it be renamed?
+Answer : The default worksheet name is Sheet1 (or Sheet2, Sheet3). To rename it, double-click the sheet tab, type the new name, and press Enter. Alternatively, right-click the tab and choose Rename Sheet.
+
+5. Write the steps to insert and delete the worksheet in Calc.
+Answer : To insert a worksheet: right-click on any sheet tab → Insert Sheet → choose location → OK.
+	To delete a worksheet: right-click the sheet tab → Delete Sheet → confirm deletion. This removes the selected sheet permanently from the workbook.
+
+6. What is an active cell? How to delete the contents of an active cell?
+Answer : The active cell is the currently selected cell with a highlighted border where data entry occurs. To delete its contents, click the cell and press Delete or Backspace, or use Edit → Clear Contents to remove data or formatting.
+
+7. What is relative and absolute cell address in the spreadsheet?
+Answer : A relative address changes when copied (e.g., A1 becomes A2). An absolute address remains fixed using dollar signs (e.g., $A$1). Relative references adjust automatically in formulas, while absolute references keep the same row and column.
+
+8. Explain any two operations performed on data in a spreadsheet.
+Answer : A spreadsheet allows sorting, which arranges data in ascending or descending order, and filtering, which displays only the rows that match specific conditions. Both operations help analyze and manage large sets of data effectively.
+
+9. How do formulae work in a spreadsheet?
+Answer : Formulas perform calculations using cell references, operators, and functions. They always start with an equals (=) sign. When cell values change, formulas recalculate automatically, ensuring updated results. Examples include =A1+B1 or =SUM(A1:A5).
+
+10. Can you include more than one mathematical operators in a formula?
+Answer : Yes, a formula can contain multiple mathematical operators such as +, –, *, and /. The spreadsheet follows the standard BODMAS/PEMDAS rule for calculation order. Example: =A1 + B1 * C1 – D1.
+
+11. How to make visible the desired toolbar in a spreadsheet?
+Answer : Click View → Toolbars, then select the toolbar you want to display. A checkmark appears beside visible toolbars. You can show, hide, or customize toolbars based on the tools needed for your task.
+
+12. Three mathematical functions (syntax + example)
+Answer : •	SUM(range) → =SUM(A1:A5)
+	 •	POWER(number, power) → =POWER(2,3)
+	 •	SQRT(number) → =SQRT(49)
+
+13. Three statistical functions (syntax + example)
+Answer : •	AVERAGE(range) → =AVERAGE(B1:B5)
+	 •	MAX(range) → =MAX(C1:C10)
+	 •	MIN(range) → =MIN(D1:D10)
+
+14. Three decision-making functions (syntax + example)
+Answer : •	IF(condition, value_true, value_false) → =IF(A1>50,"Pass","Fail")
+	 •	COUNTIF(range, condition) → =COUNTIF(A1:A10,">20")
+	 •	SUMIF(range, condition, sum_range) → =SUMIF(A1:A10,"B",B1:B10)
+
+15. Three date & time functions (syntax + example)
+Answer : •	TODAY() → =TODAY()
+	 •	NOW() → =NOW()
+	 •	DAY(date) → =DAY("2025-05-12")
+
+16. Three logical functions (syntax + example)
+Answer : •	AND(condition1,condition2) → =AND(A1>10,B1<20)
+	 •	OR(condition1,condition2) → =OR(A1=5,B1=5)
+	 •	NOT(condition) → =NOT(A1=0)
+
+17. Three string functions (syntax + example)
+Answer : •	LEN(text) → =LEN("Hello")
+	 •	LOWER(text) → =LOWER("WELCOME")
+	 •	CONCAT(text1,text2) → =CONCAT(A1,B1)
+
+18. Explain the advantages of drawing a chart in Calc.
+Answer : Charts present data visually, making it easier to compare values, identify trends, and understand patterns quickly. They simplify complex information, improve presentation quality, and help in better decision-making during analysis.
+
+19. Explain in one line each the various types of charts.
+Answer : •	Column Chart: Compares data across categories.
+	 •	Bar Chart: Shows comparisons horizontally.
+	 •	Line Chart: Displays trends over time.
+	 •	Pie Chart: Shows parts of a whole.
+	 •	Area Chart: Highlights cumulative values.
+	 •	Scatter Chart: Displays relationship between variables.
+
+20. Write the steps to insert a chart in Calc.
+Answer : Select data → Click Insert → Chart → Choose chart type → Click Next → Set titles and labels → Finish. The chart appears on the worksheet and can be moved or resized.
+
+21. Name and explain any five components of a chart in a spreadsheet package.
+Answer : •	Title: Shows the name of the chart.
+	 •	Axes: Represent categories (X-axis) and values (Y-axis).
+	 •	Legend: Identifies colors or data series.
+	 •	Data Series: Actual plotted data.
+	 •	Gridlines: Help read values more accurately.
+______________________________________________
+
+Unit 5 : Digital Presentations
+
+D. Short Answer Questions (50 words)
+
+1. List the possible multimedia contents that are included while creating a presentation.
+Answer : A presentation may include various multimedia elements such as text, images, audio clips, video files, animations, charts, tables, SmartArt, hyperlinks, shapes, and background designs. These elements help make the presentation visually attractive, engaging, and easier to understand for the audience during demonstrations or explanations.
+
+2. List the important points to be considered while making an effective presentation.
+Answer : Use clear and simple text, maintain consistent formatting, use high-quality pictures, avoid overcrowded slides, choose readable fonts, use animations sparingly, include bullet points, ensure proper color contrast, and keep the content focused on key points. Practice the presentation to maintain smooth delivery and timing.
+
+3. What are the advantages of using a presentation?
+Answer : Presentations make information easy to understand through visuals, organize content systematically, allow multimedia integration, and enhance audience engagement. They are useful for teaching, business meetings, seminars, training sessions, and demonstrations. Presentations can be saved, shared, edited, and reused anytime, increasing efficiency and clarity in communication.
+
+4. What objects can be inserted to slides in Impress?
+Answer : In LibreOffice Impress, you can insert text boxes, images, audio, video, shapes, tables, charts, diagrams, symbols, hyperlinks, WordArt, slide numbers, headers, footers, and backgrounds. These objects help make slides informative and visually appealing, improving the overall presentation quality and effectiveness.
+
+5. What are the steps to add picture or object to the slide?
+Answer : Open the slide → Go to Insert menu → Select Image, Shape, Table, Chart, or other object → Choose the file or draw the object → Adjust size and position on the slide. The inserted object can be formatted using formatting toolbar options.
+
+6. How can text be added to header or footer on the slides?
+Answer : Go to Insert → Header and Footer → A dialog box appears → Select whether to apply to all slides or only notes and handouts → Enter the desired text in Header or Footer boxes → Click Apply or Apply to All. The text appears on selected slides.
+
+7. Describe the use of fields available in header and footer.
+Answer : Fields such as date, time, slide number, and footer text help automatically update information on slides. They keep presentations organized by showing slide order, current date, or custom notes. Fields ensure consistency and help the presenter and audience track slide information easily.
+
+8. Write the steps to create a template.
+Answer : Design a slide with desired layout, background, fonts, and placeholders → Go to File → Templates → Save As Template → Give a name → Choose a category → Click Save. This saved template can be reused for future presentations to maintain a consistent format.
+
+9. Write down the steps to add slide transition in your presentation.
+Answer : Select a slide → Go to Slide Transition panel → Choose a transition effect → Adjust speed, sound, or direction → Select whether the slide changes on mouse click or automatically → Click Apply to All if needed. The selected transition plays between slides.
+
+10. How will you add the slide number at the bottom of each slide?
+Answer : Go to Insert → Header and Footer → Check the box for Slide Number → Click Apply to All. Slide numbers will appear on all slides except the title slide if the “Do not show on title slide” option is selected.
+
+11. How will you insert a company’s logo (picture) in the first slide of your presentation?
+Answer : Open the first slide → Go to Insert → Image → Browse and select the company logo → Click Open → Resize and position the logo on the slide. Use the formatting tools to adjust transparency or alignment if required.
+
+12. How will you add the name of the company on the top of each slide?
+Answer : Go to View → Master Slide → Insert a text box at the top → Type the company name → Format it as needed → Close Master View. The company name will automatically appear at the top of all slides.
+
+13. Write down the steps to create a table in a presentation.
+Answer : Go to Insert → Table → Choose the number of rows and columns → Click OK → A table appears on the slide → Enter data into cells → Format the table using borders, colors, and alignment options. Tables help display information in a structured manner.
+
+14. Write down the steps to insert a chart in slide.
+Answer : Select the slide → Go to Insert → Chart → A default chart appears → Edit the chart data in the spreadsheet window → Choose chart type and format → Close data editor. The chart updates automatically and can be resized or moved on the slide.
+
+15. What are the five views of presentation?
+Answer : The main views in a presentation program are:
+	i.	Normal View – For editing slides.
+	ii.	Outline View – Displays text in outline form.
+	iii.	Slide Sorter View – Shows thumbnails for arranging slides.
+	iv.	Notes View – For adding speaker notes.
+	v.	Slide Show View – For presenting slides on screen.
+__________________________________________________
+

@@ -145,11 +145,14 @@ function selectClass(cls){ window.selectedClass=cls; document.getElementById('bo
 function openPdf(kind){
   const cls = window.selectedClass;
   if(!cls){ showView('view-classes'); return; }
-  const filename = kind==='skills' ? 'skills.pdf' : 'main.pdf';
+
+  const filename = kind==='skills' ? 'skills.txt' : 'main.txt';
   const path = `${pdfBase}/${cls}/${filename}`;
+
   document.getElementById('pdfFrame').src = path;
-  document.getElementById('pdfTitle').textContent = `${cls.replace('class','Class ')} — ${kind==='skills'?'Skills Book Notes':'Main Textbook Notes'}`;
+  document.getElementById('pdfTitle').textContent = `${cls.replace('class','Class ')} — ${kind==='skills'?'Skills Notes':'Main Notes'}`;
   document.getElementById('downloadLink').href = path;
+
   showView('view-pdf');
   history.pushState({view:'pdf',path},'',`#${cls}-${kind}`);
 }
