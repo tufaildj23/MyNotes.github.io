@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MyNotes By Tufail</title>
+  <link rel="icon" href="assets/favicon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .app{max-width:480px;margin:0 auto;height:100vh;display:flex;flex-direction:column;background:#f7fafc}
+    header{display:flex;align-items:center;gap:12px;padding:12px;background:white;box-shadow:0 1px 0 rgba(13,17,23,0.06)}
+    .logo{height:40px;border-radius:6px}
+    main{padding:14px;flex:1;overflow:auto}
+    footer{height:56px;display:flex;align-items:center;justify-content:space-around;border-top:1px solid #eee;background:white}
+    iframe.pdfViewer{width:100%;height:65vh;border:0;border-radius:8px}
+  </style>
+</head>
+<body class="antialiased">
+  <div class="app shadow-sm">
+    <header>
+      <button id="btnBack" class="text-blue-600 font-semibold" onclick="goBack()">← Back</button>
+      <img src="assets/logo.png" class="logo" id="siteLogo" alt="logo">
+      <div style="flex:1">
+        <div id="headerTitle" class="font-bold text-lg">MyNotes</div>
+        <div id="headerSub" class="text-sm text-gray-500">Mobile notes viewer By Tufail</div>
+      </div>
+      <div id="userAvatar" class="text-sm text-gray-600"></div>
+    </header>
+
+    <main id="main">
+      <!-- Login -->
+      <section id="view-login" class="view">
+        <div class="card p-4 bg-white rounded-lg shadow">
+          <h3 class="font-bold mb-2">Sign in</h3>
+          <input id="mobile" class="w-full border p-2 rounded mb-2" placeholder="Mobile number" inputmode="numeric">
+          <input id="password" type="password" class="w-full border p-2 rounded mb-3" placeholder="Password">
+          <button class="w-full bg-blue-600 text-white py-2 rounded font-semibold" onclick="doLogin()">Login</button>
+          <p class="text-xs text-gray-500 mt-2">For new Registration Whatsapp or call 6376056919.</p>
+        </div>
+      </section>
+
+      <!-- Classes -->
+      <section id="view-classes" class="view hidden">
+        <div class="p-4 bg-white rounded-lg shadow">
+          <h3 class="font-bold mb-3">Select Your Class</h3>
+          <div class="grid grid-cols-2 gap-3">
+            <button class="p-3 bg-white rounded border" onclick="selectClass('class9')">Class IX</button>
+            <button class="p-3 bg-white rounded border" onclick="selectClass('class10')">Class X</button>
+            <button class="p-3 bg-white rounded border" onclick="selectClass('class11')">Class XI</button>
+            <button class="p-3 bg-white rounded border" onclick="selectClass('class12')">Class XII</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Books -->
+      <section id="view-books" class="view hidden">
+        <div class="p-4 bg-white rounded-lg shadow">
+          <h3 id="books-for-class" class="font-bold mb-3">Books</h3>
+          <div class="flex flex-col gap-3">
+            <button class="p-3 bg-white rounded border text-left" onclick="openPdf('skills')">Skills Book Notes</button>
+            <button class="p-3 bg-white rounded border text-left" onclick="openPdf('main')">Main Textbook Notes</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- PDF viewer (iframe) -->
+      <section id="view-pdf" class="view hidden">
+        <div class="p-2 bg-white rounded-lg shadow">
+          <div class="flex justify-between items-center mb-2">
+            <div id="pdfTitle" class="font-semibold">PDF Viewer</div>
+            <a id="downloadLink" class="text-sm text-gray-500" href="#" download></a>
+          </div>
+          <iframe id="pdfFrame" class="pdfViewer"></iframe>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="view-contact" class="view hidden">
+        <div class="p-4 bg-white rounded-lg shadow">
+          <h3 class="font-bold mb-2">Contact</h3>
+          <p class="text-sm text-gray-600">Email: <a href="mailto:tufailites@gmail.com">tufailites@gmail.com</a></p>
+          <p class="text-sm text-gray-600">Whatsapp: <a href="https://wa.me/916376056919?text=hi,%20i%20am%20contacting%20from%20your%20My%20Notes%20app" target="_blank">+91 6376056919</a></p>
+          <p class="text-sm text-gray-600">Call: <a href="tel:+916376056919">+91 6376056919</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footerBar" class="hidden">
+      <button id="homeBtn" class="font-semibold text-gray-700" onclick="goHome()">Home</button>
+      <button id="contactBtn" class="font-semibold text-gray-700" onclick="openContact()">Contact</button>
+    </footer>
+  </div>
+
+<script>
+const pdfBase = 'pdfs';
+let usersData = null;
+let loggedUser = null;
+const classes = ['class9','class10','class11','class12'];
+
+// load users.json (relative path) - works on GitHub Pages
+fetch('./users.json').then(r=>{
+  if(!r.ok) throw new Error('users.json load failed');
+  return r.json();
+}).then(j=> usersData = j).catch(err=> {
+  console.error('Failed to load users.json:', err);
+  usersData = [];
+});
+
+function showView(id){
+  document.querySelectorAll('.view').forEach(s=>s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  if(id === 'view-login'){
+    document.getElementById('btnBack').style.display = 'none';
+    document.getElementById('footerBar').classList.add('hidden');
+    document.getElementById('headerTitle').textContent = 'MyNotes';
+    document.getElementById('headerSub').textContent = 'Mobile notes viewer';
+    document.getElementById('userAvatar').textContent = '';
+  } else {
+    document.getElementById('btnBack').style.display = '';
+    document.getElementById('footerBar').classList.remove('hidden');
+    if(loggedUser){
+      document.getElementById('headerTitle').textContent = loggedUser.name;
+      document.getElementById('headerSub').textContent = loggedUser.mobile;
+      document.getElementById('userAvatar').textContent = loggedUser.name.split(' ')[0];
+    }
+    if(id === 'view-classes'){ document.getElementById('headerSub').textContent = ''; }
+  }
+}
+
+function doLogin(){
+  const mobile = (document.getElementById('mobile').value||'').trim();
+  const password = (document.getElementById('password').value||'').trim();
+  if(!mobile||!password){ alert('Enter mobile and password'); return; }
+  if(!usersData){ alert('Users not loaded'); return; }
+  const u = usersData.find(x=>String(x.mobile)===String(mobile) && String(x.password)===String(password));
+  if(!u){ alert('Invalid credentials'); return; }
+  loggedUser = u;
+  sessionStorage.setItem('loggedUser', JSON.stringify(u));
+  showView('view-classes');
+  document.getElementById('mobile').value=''; document.getElementById('password').value='';
+}
+
+function selectClass(cls){ window.selectedClass=cls; document.getElementById('books-for-class').textContent='Books — '+cls.replace('class','Class '); showView('view-books'); }
+
+function openPdf(kind){
+  const cls = window.selectedClass;
+  if(!cls){ showView('view-classes'); return; }
+  const filename = kind==='skills' ? 'skills.pdf' : 'main.pdf';
+  const path = `${pdfBase}/${cls}/${filename}`;
+  document.getElementById('pdfFrame').src = path;
+  document.getElementById('pdfTitle').textContent = `${cls.replace('class','Class ')} — ${kind==='skills'?'Skills Book Notes':'Main Textbook Notes'}`;
+  document.getElementById('downloadLink').href = path;
+  showView('view-pdf');
+  history.pushState({view:'pdf',path},'',`#${cls}-${kind}`);
+}
+
+function goBack(){
+  const cur = Array.from(document.querySelectorAll('.view')).find(v=>!v.classList.contains('hidden'));
+  if(cur && cur.id === 'view-pdf'){ showView('view-books'); history.back(); return; }
+  if(cur && cur.id === 'view-books'){ showView('view-classes'); return; }
+  if(cur && cur.id === 'view-classes'){ showView('view-login'); sessionStorage.removeItem('loggedUser'); loggedUser=null; return; }
+  showView('view-classes');
+}
+
+function goHome(){ showView('view-classes'); }
+function openContact(){ showView('view-contact'); }
+
+window.addEventListener('popstate', (ev)=>{ if(ev.state && ev.state.view==='pdf' && ev.state.path){ document.getElementById('pdfFrame').src=ev.state.path; showView('view-pdf'); } else showView('view-classes'); });
+
+(function init(){ const u=sessionStorage.getItem('loggedUser'); if(u){ try{ loggedUser=JSON.parse(u);}catch(e){} } showView(loggedUser? 'view-classes':'view-login'); })();
+</script>
+</body>
+</html>

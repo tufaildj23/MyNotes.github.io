@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PDF.js Viewer — MyNotes</title>
+<link rel="icon" href="assets/favicon.png">
+<style>body{font-family:system-ui;margin:0;padding:0}.top{display:flex;align-items:center;padding:10px;gap:10px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,0.06)}.logo{height:36px}</style>
+</head>
+<body>
+  <div class="top">
+    <img src="assets/logo.png" class="logo" alt="logo"><div id="title">MyNotes</div>
+  </div>
+  <div style="padding:12px;max-width:900px;margin:0 auto">
+    <input id="fileUrl" placeholder="Enter PDF path e.g. pdfs/class9/skills.pdf" style="width:100%;padding:8px"/><button id="loadBtn">Load</button>
+    <div id="viewer" style="margin-top:12px"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script>
+    const pdfjsLib = window['pdfjs-dist/build/pdf'];
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+    function renderPDF(url){
+      const viewer = document.getElementById('viewer');
+      viewer.innerHTML='';
+      pdfjsLib.getDocument(url).promise.then(pdf=>{
+        for(let i=1;i<=pdf.numPages;i++){
+          pdf.getPage(i).then(page=>{
+            const scale=1.2; const viewport=page.getViewport({scale});
+            const canvas=document.createElement('canvas'); canvas.style.display='block'; canvas.style.marginBottom='12px';
+            const ctx=canvas.getContext('2d'); canvas.width=viewport.width; canvas.height=viewport.height;
+            viewer.appendChild(canvas); page.render({canvasContext:ctx,viewport});
+          });
+        }
+      }).catch(err=>{ viewer.innerHTML='<iframe src="'+url+'" style="width:100%;height:80vh;border:0"></iframe>'; });
+    }
+    document.getElementById('loadBtn').addEventListener('click', ()=>{
+      const url=document.getElementById('fileUrl').value.trim(); if(!url)return; renderPDF(url);
+    });
+    const u = sessionStorage.getItem('loggedUser'); if(u){ try{ const obj=JSON.parse(u); document.getElementById('title').textContent = obj.name; }catch(e){} }
+  </script>
+</body>
+</html>
