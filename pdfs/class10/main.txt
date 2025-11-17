@@ -1,1 +1,622 @@
-Notes ami upload koria Group janaimu...
+Class X – IT/IteS Notes By Tufail
+________________________________________
+Unit 1: Digital Documentation (Advanced) using LibreOffice Writer
+Chapter 1. Introduction to Styles
+________________________________________
+1. What do you understand by styles in LibreOffice Writer document?
+Ans :  Styles are predefined sets of formatting instructions (like font, size, color, spacing, alignment) that can be applied quickly to text, paragraphs, pages, and objects to maintain consistency in a document.
+________________________________________
+2. Write advantages of using Style over manual formatting, for designing a document.
+Ans : Ensures uniform and consistent formatting throughout the document. Saves time because changes to a style automatically update all text using that style.
+________________________________________
+3. What are the different categories of style in LibreOffice Writer document?
+Ans : Paragraph Styles, Character Styles, Page Styles, Frame Styles, List Styles, Table Styles
+________________________________________
+4. Write down the steps to update a style.
+Ans : Format a paragraph or text manually the way you want.
+	Open the Styles Sidebar (F11).
+	Right-click the style you want to change.
+	Select Update Style.
+The style will update using the formatting from the selected text.
+________________________________________
+5. What do you understand by custom styles in LibreOffice Writer?
+Ans : Custom styles are user-created styles where you define your own formatting rules instead of using the built-in default styles. They help apply your own formatting consistently.
+________________________________________
+6. About the Introduction paragraph formatting steps
+Ans : The given steps show manual formatting of the "Introduction" paragraph.
+Each formatting feature—font face, font size, bold, font colour, paragraph spacing, and numbering—is applied individually by using toolbar options and the Format menu. This method is used when formatting is done step-by-step instead of using Styles.________________________________________
+7. Give two examples, where instead of Style, using manual formatting will be beneficial.
+Ans : Two examples are – 
+1.	When you need to format a single word or a small text differently (e.g., highlighting one term).
+2.	When making temporary or one-time formatting changes that will not be reused in the document.
+________________________________________
+8. Give one situation in which you will prefer to use Fill Format for styling your document.
+Ans : When you want to quickly copy formatting from one text/paragraph and apply it to several other places, Fill Format (paintbrush tool) is useful.
+________________________________________
+9. Write steps to load style(s) from a template.
+Ans :  Steps are as follows –
+	Open Styles Sidebar (F11).
+	Click the dropdown menu in the Styles window.
+	Select Load Styles.
+	Browse and choose the template file.
+	Select the type of styles you want to import (paragraph, character, etc.).
+	Click OK to load styles into your document.
+________________________________________
+Chapter 2. Working with Images
+________________________________________
+1. What is a digital image? How can you create one?
+Ans: A digital image is a picture represented on a computer using pixels (tiny squares of colour). It is stored in digital formats like JPG, PNG, BMP, etc.
+You can create a digital image by:
+	Taking a picture with a digital camera or smartphone.
+	Scanning a photo using a scanner.
+	Drawing or designing an image in software like LibreOffice Draw, GIMP, Paint, etc.
+________________________________________
+2. Write steps to insert an image from the Gallery using Drag and Drop method.
+Ans : Steps are as follows –
+	Open your document in LibreOffice Writer.
+	Go to View → Gallery to open the Gallery panel.
+	Browse through the Gallery categories to find the image you want.
+	Click and hold the image with your mouse.
+	Drag the image from the Gallery into your document.
+	Release the mouse button to drop the image into your document.
+________________________________________
+3. How is resizing of image different from cropping it?
+Ans : Resizing changes the overall dimensions (height and width) of the image while keeping the whole picture visible.
+Cropping removes unwanted outer parts of the image and keeps only the selected portion.
+________________________________________
+4. What are the tools available in drawing toolbar? Describe any five tools.
+Ans : The Drawing Toolbar includes tools like:
+o	Selection tool
+o	Line tool
+o	Rectangle tool
+o	Ellipse tool
+o	Text tool
+o	Basic Shapes
+o	Connectors
+o	Curve/Freeform tool
+o	Polygon tool
+Any five tools:
+o	Selection Tool – Used to select, move, or resize objects.
+o	Line Tool – Draws straight lines.
+o	Rectangle Tool – Creates rectangular and square shapes.
+o	Ellipse Tool – Creates circles and ellipses.
+o	Text Tool – Allows inserting text boxes inside the document.
+________________________________________
+5. How is linking of an image different from embedding? Give a situation to prefer linking.
+Ans : Embedding inserts the full image file inside the Writer document. Linking stores only a reference/path to the image on the computer, not the actual image data.
+Prefer linking when: If the image file is large and may be updated frequently, linking is better because the document will automatically show the updated version.
+________________________________________
+6. Write steps to change properties for drawing objects.
+Ans : Steps are as follows –
+	Select the drawing object.
+	Open the Properties sidebar (View → Sidebar).
+	Go to Properties tab.
+	Change settings like Line style, Fill color, Area, Position, Size, etc.
+	The object updates instantly based on the selected property.
+________________________________________
+7. What are the benefits and drawbacks of grouping drawing objects?
+Ans : 	Benefits:
+o	You can move, resize, and format multiple objects as a single unit.
+o	Keeps the layout organized.
+Drawbacks:
+o	Individual objects cannot be edited unless you ungroup them.
+o	Might cause alignment issues if objects need separate formatting.
+________________________________________
+8. Describe any two tools from Drawing Object Properties toolbar.
+Ans : Two tools described below –
+	Fill Color Tool – Sets the interior color of shapes/objects.
+	Line Style Tool – Changes thickness, pattern, or type of border/outline of an object.
+________________________________________
+9. Write steps to insert an image in a basic drawing shape.
+Ans : steps to insert an image –
+	Insert a Basic Shape (e.g., rectangle or circle).
+	Right-click the shape and choose Area.
+	Go to Bitmap tab.
+	Click Add/Import and select the image.
+	Apply the image as a fill inside the shape.
+________________________________________
+10. Write factors controlling positioning of an image in a document.
+Ans : Image positioning depends on:
+	Anchor type (To paragraph, To page, As character, etc.)
+	Wrap settings (Optimal, Page wrap, Wrap through, etc.)
+	Alignment (Left, Right, Center)
+	Spacing around the image
+	Position and size settings
+________________________________________
+Chapter 3. Advanced Features of Writer
+________________________________________
+1. What is the need of table of contents?
+Ans : A Table of Contents (ToC) provides a quick, organized list of headings and page numbers, helping readers easily navigate the document.
+________________________________________
+2. What will happen if the ‘Protected Against Manual Changes’ option is not selected?
+Ans : If it is not selected, the entries in the ToC can be manually edited, which may cause inconsistencies because such changes will be lost when the ToC is updated.
+________________________________________
+3. Name the five tabs present in the Table of Contents, Index or Bibliography dialog box.
+Ans : 
+•	Type
+•	Entries
+•	Styles
+•	Columns
+•	Background
+________________________________________
+4. What do you mean by customization of ToC?
+Ans : Customization of ToC means modifying its appearance and structure, such as changing levels, styles, tab leaders, numbering, formatting, and layout according to your needs.
+________________________________________
+5. How are headings and sub-headings differentiated in ToC?
+Ans : They are differentiated by levels—main headings appear at a higher level (e.g., Level 1) and sub-headings are placed at lower levels (e.g., Level 2, Level 3), often with indentation.
+________________________________________
+6. Define a template.
+Ans : A template is a ready-made document format that contains predefined styles, layouts, and settings, used to create new documents quickly with consistent formatting.
+________________________________________
+7. Give any one advantage of using a template for your document.
+Ans : Templates save time by providing predesigned formatting, so you don't need to set styles and layout manually.
+________________________________________
+8. What is the difference between importing and exporting a template?
+Ans : Importing adds a template from outside (another file/system) into LibreOffice’s template list.
+Exporting saves a LibreOffice template to an external location so it can be shared or used elsewhere.
+________________________________________
+9. Name any two categories of templates.
+Ans : 
+•	Business
+•	Personal
+•	Education
+•	Finance
+•	Presentation
+•	Letters
+________________________________________
+10. When is exporting of templates useful? Give any one reason.
+Ans : Exporting is useful when you want to share a template with others or use the same template on another computer.
+________________________________________
+11. What is the difference between Accept Track Change and Accept All Tracked Changes?
+Ans :Accept Track Change accepts only the selected change. Accept All Tracked Changes accepts every pending change in the entire document at once.
+________________________________________
+12. How do we prepare a document for review?
+Ans :
+•	Open the document.
+•	Enable Track Changes (Edit → Track Changes → Record).
+•	Save and share the document with reviewers.
+•	Reviewers make edits, which are recorded automatically for later approval or rejection.
+________________________________________
+13. Identify and label the Record button, Insert Comments button, Accept All Tracked Changes, Reject Track Change buttons in the following figures of Track Changes toolbar (shown in Fig 3.41).
+Ans : In the Track Changes toolbar of LibreOffice Writer, the following buttons are present:
+o	Record Changes (Record button) – Used to start tracking changes.
+o	Insert Comment button – Adds a comment at the cursor position.
+o	Accept All Tracked Changes button – Approves all changes in the document.
+o	Reject Track Change button – Rejects a selected change or all changes (depending on selection).
+________________________________________
+14. Identify and label “Browse Online Templates button, Export button, Import button” in the following Templates dialog box.
+Ans :
+Inside the Templates dialog box:
+Browse Online Templates button
+Located usually at the top-right or near the search area.
+Opens LibreOffice’s online template repository.
+Export button
+Found at the bottom right.
+Used to export the selected template to an external folder.
+Import button
+Located next to the Export button.
+Used to import templates from your computer into LibreOffice’s template library.
+
+________________________________________
+Chapter 4. Analyse Data using Scenarios and Goal Seek
+________________________________________
+1. Define the terms
+(a) Consolidate function
+Ans : Consolidate function is used to combine data from multiple sheets or ranges into one summary sheet, usually by applying functions like Sum, Count, Average, etc.
+(b) What-if analysis
+Ans : What-if analysis is a tool that helps to change input values and see how those changes affect the result in a spreadsheet model.
+(c) Goal Seek
+Ans : Goal Seek is a tool that works backward to find the required input value needed to achieve a specific result in a formula.
+________________________________________
+2. Give one point of difference
+(a) Subtotal and What-if
+Ans : Subtotal is used to calculate summary values (Sum, Max, Average) for grouped data, while What-if is used to test different inputs to study how results change.
+(b) What-if scenario and What-if tool
+Ans : A What-if scenario is a set of stored input values, whereas the What-if tool is the feature used to create, examine, and compare those scenarios.
+________________________________________
+3. Give any two advantages of data analysis tools.
+Ans :They help summarize and understand large data easily.
+They allow quick decision-making by testing multiple possibilities.
+________________________________________
+4. Name any two tools for data analysis.
+Ans :Consolidate And Goal Seek. 
+________________________________________
+5. What are the criteria for consolidating sheets?
+Ans :Data ranges should have similar structure (same row and column layout).
+Labels (row/column headings) should be consistent across sheets.
+________________________________________
+6. Which tool is used to create an outline for the selected data?
+Ans : The Group and Outline tool is used to create an outline for selected data.
+________________________________________
+Chapter 5 : Using Macros in Spreadsheet
+________________________________________
+1. What is a Macro? List any two real-life situations where they can be used.
+Ans : A macro is a recorded set of commands or actions that can be executed automatically to save time and repeat tasks quickly.
+Real-life situations:
+o	Automating repetitive formatting of documents or reports.
+o	Automatically generating monthly calculation sheets, such as totals or bills.
+________________________________________
+2. List the actions that are not recorded by a macro.
+Ans :	
+o	Mouse pointer movements.
+o	Window resizing or scrolling.
+o	Actions outside LibreOffice (like opening external programs).
+o	Security-restricted operations.
+________________________________________
+3. How is LibreOffice Macros Library different from My Macros?
+Ans :LibreOffice Macros Library contains built-in macros provided by the software.
+My Macros contains user-created macros saved for personal use.
+________________________________________
+4. Differentiate between predefined function in Calc and Macros as a function.
+Ans :Predefined function in Calc: Already available, built-in formulas (SUM, AVERAGE, IF, etc.) used directly in spreadsheet cells.
+Macros as a function: User-written or recorded instructions that perform custom or complex tasks not handled by standard functions.
+________________________________________
+5. List the rules that should be kept in mind while naming a macro.
+Ans :	Name must start with a letter.
+Should not contain spaces (use underscore if needed).
+Should not use special characters.
+Should be meaningful to identify its purpose.
+________________________________________
+6. Give any one advantage of macros.
+Ans : Macros save time by automating repetitive and lengthy tasks, improving efficiency.
+________________________________________
+Chapter 6 : Linking Spreadsheet Data
+________________________________________
+1. Name the two ways to link the sheets in LibreOffice Calc.
+Ans :	 Using formulas that refer to another sheet (example: =Sheet2.A1).
+Using hyperlinks to link sheets within the same workbook.
+________________________________________
+2. Differentiate between Relative and Absolute Hyperlink.
+Ans :	Relative Hyperlink : The link is based on the current file’s location. If the file is moved, the hyperlink may change automatically relative to the new location.
+Absolute Hyperlink : The link uses the full, fixed path (e.g., C:/Documents/file.ods). It remains the same even if the main file is moved.
+________________________________________
+3. Write steps to extract a table from a web page in a spreadsheet.
+Ans :
+I.	Open LibreOffice Calc.
+II.	Go to Sheet → Link to External Data.
+III.	Enter the URL of the web page containing the table.
+IV.	Press Enter to load available data tables.
+V.	Select the table you want to import.
+VI.	Click OK to extract the table into the spreadsheet.
+________________________________________
+4. Write steps to register a data source that is in .odb format.
+Ans :
+I.	Open LibreOffice.
+II.	Go to Tools → Options.
+III.	Select LibreOffice Base → Databases.
+IV.	Click New.
+V.	Browse and select the .odb file.
+VI.	Give a name to the data source.
+VII.	Click OK to register it.
+________________________________________
+5. State advantages of extracting data from a web page into a spreadsheet.
+Ans : Saves time because data is imported automatically, without copying manually. Data can be updated, analyzed, sorted, or calculated immediately in Calc. Reduces errors caused by manual copying.
+________________________________________
+Chapter 7 : Share and Review a Spreadsheet
+________________________________________
+1. Define the terms
+(a) Sharing Spreadsheet
+Ans : Sharing a spreadsheet means allowing multiple users to work on the same Calc file at the same time, making collaborative editing possible.
+(b) Record Changes
+Ans : Record Changes is a Calc feature that tracks all edits made in the spreadsheet, such as insertions, deletions, or modifications.
+________________________________________
+2. Write the commands to perform
+(a) Sharing Spreadsheet
+Ans : Go to Tools → Share Spreadsheet and enable sharing.
+(b) Record Changes
+Ans : Go to Edit → Track Changes → Record.
+________________________________________
+3. Which menu is used to perform the functions
+(a) Track Changes
+Ans : The Edit menu is used (Edit → Track Changes).
+(b) Saving Spreadsheet
+Ans : The File menu is used (File → Save or Save As).
+________________________________________
+4. What do you understand by reviewing the changes in the spreadsheet?
+Ans : Reviewing changes means checking, accepting, or rejecting the edits recorded in the spreadsheet, usually done after collaboration to finalize the document.
+________________________________________
+5. Differentiate between Merging and Comparing Spreadsheet.
+Ans : Merging Spreadsheet: Combines changes from multiple shared copies of the same spreadsheet into a single master file.
+Comparing Spreadsheet: Identifies differences between two similar spreadsheets without merging them.
+________________________________________
+Chapter 8 : Introduction to Database Management System
+________________________________________
+1. Define the terms
+(a) Database
+Ans : A database is a collection of organized data that can be easily accessed, managed, and updated.
+(b) Data redundancy
+Ans : Data redundancy means unnecessary duplication of data in a database.
+(c) Report
+Ans : A report is a formatted and organized presentation of data from a database for printing or viewing.
+________________________________________
+2. Give one point of difference between
+(a) Data and Information
+Ans :	Data: Raw facts and figures.
+Information: Processed data that is meaningful and useful.
+(b) Form and Query
+Ans :	Form: Used to enter, view, and edit data in a user-friendly layout.
+Query: Used to search, filter, and retrieve specific data based on conditions.
+(c) Network and Hierarchical data model
+Ans :	Network Model: Allows many-to-many relationships between data.
+Hierarchical Model: Organizes data in a tree-like structure with parent–child relationships.
+________________________________________
+3. Give any four advantages of a DBMS.
+Ans : four advantages are – 
+i.	Reduces data redundancy.
+ii.	Improves data security.
+iii.	Provides data consistency and accuracy.
+iv.	Allows multiple users to access data simultaneously.
+________________________________________
+4. Consider the table given below and answer the questions that follow
+(a) Name the fields in the given table.
+Ans : The fields (columns) are : Book_Id, Book Name, Author Name, Price, Publisher.
+(b) Which field should be made the primary key?
+Ans : “Book_Id” should be made the primary key because each book has a unique “Book_Id” and it does not repeat.
+(c) Is there any alternate key in the table?
+Ans : No, there is no alternate key because none of the remaining fields (Book Name, Author Name, Price, Publisher) uniquely identify each record.
+(d) How is primary key different from foreign key? Explain with example.
+Ans :	________________________________________________________________________________________________________
+	|	Primary Key				|		Foreign Key				|
+	|-----------------------------------------------|-------------------------------------------------------|
+	|Uniquely identifies a record in a table.	|	Creates a link between two tables.		|
+	|Cannot have duplicate or NULL values.	        |       Can have duplicate values and can be NULL.	|
+	|Exists within its own table.                   |      	Refers to the primary key of another table.	|
+  	`````````````````````````````````````````````````````````````````````````````````````````````````````````
+Example:
+	In the Library table, Book_Id is the Primary Key.
+	Suppose there is another table named Issue:
+	Issue_Id	|	Book_Id		|	Student_Name
+	I101		|	F001		|	Rahul
+	In this table, Book_Id becomes the Foreign Key because it refers to the primary key Book_Id of the Library table.
+________________________________________
+Chapter 9 : Starting with LibreOffice Base
+________________________________________
+Q. Differentiate between:
+(a) Memo and Varchar data type
+Ans : 	Memo: Used to store very large text (long paragraphs).
+Varchar: Used to store short text with a defined maximum length.
+(b) Number and Decimal data type
+Ans :	Number: Stores general numeric values without fixed decimal places.
+Decimal: Stores numeric values with fixed decimal places (used for money, precise values).
+(c) Design View and Datasheet View of a table
+Ans :	Design View: Used to create or modify the structure of a table (fields, data types, primary key).
+Datasheet View: Used to enter, view, and edit records (data rows).
+________________________________________
+Q. Name the menu items present on the Base User Interface
+Ans : File, Edit, View, Insert, Tools, Window, Help
+________________________________________
+Q. Label the components – Title Bar, Database Pane, Tasks Pane, Status Bar
+Ans : 	Title Bar: Topmost bar showing the database file name.
+Database Pane: Left side pane showing Tables, Queries, Forms, Reports.
+Tasks Pane: Right side pane listing tasks like Create Table, Use Wizard, etc.
+Status Bar: Bottom bar showing database status and information.
+________________________________________
+Q. How can we define a primary key in a table?
+Ans : 	Open the table in Design View
+Select the field you want to make the primary key
+Right-click the field
+Choose “Primary Key”
+________________________________________
+Q. Write steps to sort the table in descending order of primary key.
+Ans : 	Open the table in Datasheet View
+Click the column header of the primary key field
+Go to Data menu
+Select Sort Descending
+________________________________________
+Q. What is the use of navigation box with respect to tables in a database?
+Ans : The navigation box is used to move through records in a table. It allows you to jump to first, previous, next, last record, and shows the total number of records.
+________________________________________
+Chapter 10 : Working with Multiple Tables
+________________________________________
+Q. Give any two advantages of relating a table in a database.
+Ans : 	It removes duplicate data and reduces storage. 
+It makes data easier to update, search, and maintain accurately.
+________________________________________
+Q. How is redundancy or inconsistency controlled in a database? Explain with an example.
+Ans : Redundancy is controlled by storing related data in separate tables and linking them through keys.
+Example: Instead of repeating publisher details in every book record, a separate Publisher table is created and linked with the Books table using Publisher_ID. This avoids repeated data and prevents mismatch.
+________________________________________
+Q. Define referential integrity. Who maintains referential integrity in a database?
+Ans : Referential integrity ensures that relationships between tables remain valid — a foreign key must match an existing primary key in the related table.
+It is maintained automatically by the DBMS (Database Management System).
+________________________________________
+Q. Differentiate between one-to-one relationship and one-to-many relationship. Give examples.
+Ans : One-to-One Relationship: One record in Table A is linked to only one record in Table B.
+Example: A person and their passport (each passport belongs to only one person).
+One-to-Many Relationship: One record in Table A is linked with many records in Table B.
+Example: One teacher and many students.
+________________________________________
+Q. Explain many-to-many relationship with an example.
+Ans : In a many-to-many relationship, records in Table A can be related to many records in Table B, and records in Table B can also be related to many in Table A.
+Example: Students and Courses — a student can join many courses, and each course can have many students.
+________________________________________
+Chapter 11 : Queries in Base
+________________________________________
+Q. Define a query? What is the need of creating a query in a database?
+Ans : A query is a tool used to extract specific data from one or more tables based on conditions.
+It is needed to filter, sort, search, and analyze data efficiently without manually going through the entire table.
+________________________________________
+Q. Rearrange the steps to create a query using a wizard.
+Ans :
+Correct order:
+(1) Give table name
+(2) Select the fields
+(3) Set the sorting order
+(4) Set the criterion
+(5) Give Alias
+________________________________________
+Q. Give Alias
+Ans : An alias is an alternate name given to a field to make it easier to understand in the query output.
+________________________________________
+Q. Select the fields
+Ans : This step is used to choose which columns/fields from the table should appear in the query result.
+________________________________________
+Q. Set the criterion
+Ans : This step is used to apply conditions to filter data. Example: Price > 500.
+________________________________________
+Q. Set the sorting order
+Ans : Used to arrange the result in ascending or descending order.
+________________________________________
+Q. Give table name
+Ans : This step selects the table from which fields will be taken for the query.
+________________________________________
+Q. What all information is seen in the overview (last step) of the Query wizard?
+Ans :	Selected table name
+Selected fields
+Sorting order
+Criteria applied
+Any aliases used
+________________________________________
+
+Q. What is the use of Alias row in the Design grid of the Query Design window?
+Ans : It is used to assign a short, readable name to a field so that the output of the query looks clear and meaningful.
+________________________________________
+Q. Name any four mathematical functions that can be applied to numerical data in a query.
+Ans : SUM, AVG (Average), MIN (Minimum), MAX (Maximum)
+________________________________________
+Q. Name the three ways of creating a query in LibreOffice Base.
+Ans : 	Using Query Wizard
+Using Design View
+Using SQL Command (Native SQL)
+________________________________________
+Chapter 12 ; Forms and Reports
+________________________________________
+Q. Give one difference between a form and a report.
+Ans : 	Form: Used to enter, edit, and view data.
+Report: Used to display and print data in a structured, formatted manner.
+________________________________________
+Q. What is a field control with respect to forms?
+Ans : A field control is an element (like a textbox, list box, checkbox etc.) placed on a form that displays or allows input of data from a specific field in a table.
+________________________________________
+Q. Which tool on the Forms Record toolbar is used to insert text on the form?
+Ans : The Label Field tool is used to insert text on the form.
+________________________________________
+Q. Name the two ways to create a form in LibreOffice Base.
+Ans : 	Form Wizard
+Design View
+________________________________________
+Q. What is the difference between a static and a dynamic report?
+Ans : 	Static Report: Shows fixed data; does not update automatically when the database changes.
+Dynamic Report: Fetches data directly from the database and updates whenever the data changes.
+________________________________________
+Q. Write the function of Forms Controls toolbar and Records toolbar.
+Ans : 	Forms Controls Toolbar: Used to insert form elements like text box, label, list box, check box, buttons etc.
+Records Toolbar: Used to navigate between records, add new records, delete records, or refresh data shown in the form.
+________________________________________
+Chapter 13 : Health, Safety and Security at Workplace
+________________________________________
+Q. Briefly explain the concept of health, safety and security at workplace.
+Ans : Health, safety and security at the workplace mean taking steps to protect employees from injuries, illnesses and security risks so that the work environment remains safe, healthy and productive.
+________________________________________
+Q. State the most important reasons for health, safety and security programs in workplace.
+Ans : They help prevent accidents, protect employee health, ensure legal compliance, reduce risks, and maintain a productive and safe working environment.
+________________________________________
+Q. List out the various workplace safety hazards.
+Ans : Physical hazards, chemical hazards, biological hazards, ergonomic hazards, electrical hazards, fire hazards and psychological hazards.
+________________________________________
+Q. List out the potential sources of hazards in an organisation.
+Ans : Faulty machinery, unsafe wiring, improper chemical storage, poor ergonomics, overloaded power outlets, unsafe work practices and lack of safety training.
+________________________________________
+Q. List some of the IT workplace hazards.
+Ans : Eye strain, back and neck pain, repetitive strain injury (RSI), tripping over cables, electrical shocks and cybersecurity threats.
+________________________________________
+Q. What are the examples of potential hazards?
+Ans : Slippery floors, loose wires, chemical spills, heavy objects stored unsafely, hot surfaces, sharp tools and poor ventilation.
+________________________________________
+Q. Describe information technology workplace hazards.
+Ans : IT workplace hazards include eye strain from long screen time, back pain from poor posture, wrist injuries from keyboard use, electrical faults in devices, tripping hazards from cables and cyber threats to data.
+________________________________________
+Q. What are the workplace safety rules?
+Ans : Keep the workplace clean, use tools properly, report hazards immediately, follow emergency procedures, wear safety gear when required and avoid unsafe movement or behavior.
+________________________________________
+Q. List out different safety guidelines.
+Ans : Maintain proper posture, take regular breaks, secure electrical connections, ensure proper lighting, keep walkways clear, handle chemicals safely and organise cables properly.
+________________________________________
+Q. Describe type of emergency with example.
+Ans : An emergency is a sudden harmful situation requiring immediate action. Example: A fire emergency in the office requires employees to follow the fire exit route and evacuate quickly.
+________________________________________
+Chapter 14 : Workplace Quality Measures
+________________________________________
+Q. What causes the water pollution?
+Ans : Water pollution is caused by industrial waste, sewage discharge, agricultural chemicals, plastic waste, oil spills, and dumping of harmful substances into water bodies.
+________________________________________
+Q.  What is occupational overuse syndrome?
+Ans : Occupational Overuse Syndrome (OOS) is a condition caused by repetitive movements or long-term overuse of muscles, tendons and nerves, leading to pain, swelling and reduced movement.
+________________________________________
+Q.  What are musculoskeletal problems?
+Ans : Musculoskeletal problems are issues affecting muscles, bones, joints and tendons. They include back pain, neck pain, shoulder strain and repetitive strain injuries (RSI).
+________________________________________
+Q.  What cautions to be taken while working on the computer?
+Ans : Maintain proper posture, keep screen at eye level, take regular breaks, use proper lighting, avoid sitting for long hours, and keep wrists straight while typing.
+________________________________________
+Q.   Why there is no right way to use a laptop?
+Ans : Because the screen and keyboard are attached together, you cannot position both screen height and keyboard height correctly at the same time, making it ergonomically unsuitable.
+________________________________________
+Q.  What causes eye strain and how to avoid it?
+Ans : Eye strain is caused by long screen time, poor lighting, glare and sitting too close to the screen.
+	 It can be avoided by taking frequent breaks, blinking often, using proper lighting, keeping the screen at a safe distance and following the 20-20-20 rule. 
+________________________________________
+Q.  What type of display screen is suitable to work on computer?
+Ans : A flat-panel LED or LCD screen with anti-glare coating and adjustable brightness is most suitable for comfortable computer work. 
+________________________________________
+Q.  What type of keyboard is suitable to work on computer?
+Ans : An ergonomic keyboard that supports natural wrist position, has soft keys and proper spacing is suitable for long computer use.
+________________________________________
+Chapter 15 : Prevent Accidents and Emergencies
+________________________________________
+Q. What is a workplace emergency?
+Ans : A workplace emergency is an unexpected situation that threatens employees, property or the environment. Examples include fire, explosion, medical emergencies, natural disasters or chemical spills. 
+________________________________________
+Q. How do you protect yourself, your employees, and your business?
+Ans : By identifying risks, training employees, creating an emergency action plan, installing safety equipment, conducting drills and ensuring proper communication during emergencies. 
+________________________________________
+Q. What is an emergency action plan?
+Ans : An emergency action plan is a written set of instructions that explains how employees should respond during workplace emergencies. 
+________________________________________ 
+Q. What should your emergency action plan include?
+Ans : It should include evacuation routes, emergency contacts, reporting procedures, roles and responsibilities, assembly points, use of safety equipment, and procedures for fire, medical or chemical emergencies. 
+________________________________________
+Q. How do you develop an evacuation policy and procedures?
+Ans : Identify exit routes, assign responsibilities, decide assembly points, create maps, communicate the plan to employees, and conduct regular evacuation drills. 
+________________________________________
+Q. How do you establish evacuation routes and exits?
+Ans : Ensure exits are clearly marked, free of obstructions, well-lit, wide enough for movement and lead to a safe outdoor area. Display evacuation maps and keep pathways clear. 
+________________________________________
+Q. What are the various types of fire extinguisher and their extinguishing material?
+Ans : 	Class A extinguisher – Water, foam
+	Class B extinguisher – CO₂, dry chemical
+	Class C extinguisher – CO₂, dry chemical (for electrical fires)
+	Class D extinguisher – Dry powder (for metal fires)
+	Class K extinguisher – Wet chemical (for cooking oil fires) 
+________________________________________
+Q. What are the steps for operating a fire extinguisher in case of a fire emergency?
+Ans : 	Use the PASS method:
+ 	P – Pull the pin
+ 	A – Aim the nozzle at the base of the fire
+ 	S – Squeeze the handle
+ 	S – Sweep the nozzle from side to side
+________________________________________
+Q. Compare the different type of fire extinguisher.
+Ans : 	Water: For wood/paper fires (Class A); not for electrical or oil fires
+	Foam: For Class A and B fires
+	CO₂: Best for electrical and flammable liquid fires
+	Dry chemical: Multipurpose; works on A, B, C fires
+	Wet chemical: For kitchen fires (Class K) 
+________________________________________
+Q. List the different class of fire.
+Ans :	Class A – Solid materials (wood, cloth, paper)
+	Class B – Flammable liquids (oil, petrol)
+	Class C – Electrical fires
+	Class D – Metal fires
+	Class K – Cooking oil and grease fires
+________________________________________
+Q. List out electrical rescue techniques.
+Ans : 	Switch off power immediately
+	Use non-conductive materials (wood, rubber) to separate victim from source
+	Do not touch the person directly
+	Call emergency services
+	Follow CPR if needed
+________________________________________
+Q. What is the first aid for electrical emergencies?
+Ans : Cut the power supply, check the victim’s breathing, apply CPR if required, treat burns with clean cloth, keep the victim warm, and call for medical help immediately.
+________________________________________
